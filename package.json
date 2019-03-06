@@ -1,0 +1,41 @@
+{
+  "name": "sr-player",
+  "version": "1.0.0",
+  "description": "A TUI player for Swedish state radio Sveriges Radio",
+  "main": "bin/sr-player",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johangu/sr-player-js.git"
+  },
+  "keywords": [
+    "Sveriges Radio",
+    "sr",
+    "sverigesradio.se",
+    "radio"
+  ],
+  "author": "Johan Guttormsson <johan@jgsoft.nl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/johangu/sr-player-js/issues"
+  },
+  "homepage": "https://github.com/johangu/sr-player-js#readme",
+  "dependencies": {
+    "blessed": "^0.1.81",
+    "nampg123": "git+https://github.com/johangu/node-addon-mpg123.git#539a5e8",
+    "request": "^2.88.0",
+    "speaker": "^0.4.1",
+    "sverigesradio-api": "0.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^5.15.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "prettier-eslint": "^8.8.2"
+  }
+}
