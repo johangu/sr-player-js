@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "A TUI player for Swedish state radio Sveriges Radio",
   "main": "bin/sr-player",
+  "bin": {
+    "sr-player": "./bin/sr-player"
+  },
   "scripts": {
     "test": "test"
   },
