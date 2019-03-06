@@ -11,7 +11,7 @@ This application depends on locally installed `libmpg123` for decoding the mp3-s
 ##### MacOS
 `brew install mpg123`  
 ##### Linux
-Use your package manager to install `mpg123` or `libmpg123` (e.g. `https://github.com/chjj/blessed`)
+Use your package manager to install `mpg123` or `libmpg123` (e.g. `apt-get install libmpg123-0`)
 
 ## Usage
 `q` - quit the application  
