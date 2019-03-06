@@ -30,7 +30,7 @@
     "nampg123": "git+https://github.com/johangu/node-addon-mpg123.git#539a5e8",
     "request": "^2.88.0",
     "speaker": "^0.4.1",
-    "sverigesradio-api": "0.0.1"
+    "sverigesradio-api": "0.0.3"
   },
   "devDependencies": {
     "eslint": "^5.15.0",
