@@ -1,7 +1,7 @@
 const Player = require('./audioPlayer')
 const ui = require('./ui')
 
-const API = require('/Users/johangu/GIT/github.com/johangu/sverigesradio-api-js')
+const API = require('sverigesradio-api')
 
 class SRPlayer {
   constructor () {
