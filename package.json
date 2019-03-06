@@ -1,6 +1,6 @@
 {
   "name": "sr-player",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A TUI player for Swedish state radio Sveriges Radio",
   "main": "bin/sr-player",
   "bin": {
