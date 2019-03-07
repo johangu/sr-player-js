@@ -5,7 +5,7 @@ Please note that the UI is in Swedish
 ## Install
 The app is hosted on npm, and can easily be installed with `npm i -g --production sr-player`
 
-###macOS caveats
+### macOS caveats
 Due to some problems with using the default **coreaudio** in macOS it's suggested to use **openal** instead, so please install with the following command:  
 `npm i -g --production sr-player --mpg123-backend=openal`
 
