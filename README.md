@@ -3,12 +3,16 @@ A TUI for listening to the Swedish state radio [*Sveriges Radio*](https://www.sv
 Please note that the UI is in Swedish
 
 ## Install
-The app is hosted on npm, and can easily be installed with `npm i -g sr-player`
+The app is hosted on npm, and can easily be installed with `npm i -g --production sr-player`
+
+###macOS caveats
+Due to some problems with using the default **coreaudio** in macOS it's suggested to use **openal** instead, so please install with the following command:  
+`npm i -g --production sr-player --mpg123-backend=openal`
 
 ### Dependencies
 #### libmpg123
 This application depends on locally installed `libmpg123` for decoding the mp3-streams  
-##### MacOS
+##### macOS
 `brew install mpg123`  
 ##### Linux
 Use your package manager to install `mpg123` or `libmpg123` (e.g. `apt-get install libmpg123-0`)
